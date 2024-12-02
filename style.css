@@ -1,0 +1,106 @@
+.hero {
+    background-image: url(./images/banner.jpg);
+    background-size: 100% 100%;
+    height: 200px;
+    color: white;
+  }
+
+.container {
+    height: 500px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.container1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-left: 20%;
+    padding-right: 20%;
+    padding-bottom: 100px;
+}
+
+.container2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 20px;
+    margin-top: 80px;
+    padding-left: 20%;
+    padding-right: 20%;
+    padding-bottom: 50px;
+}
+
+.font1 {
+    font-size: 8rem;
+    font-family: "Great Vibes", cursive;
+    font-weight: 1000;
+    font-style: normal;
+    color: white;
+    margin: 10px;
+  }
+
+.sub-text {
+    font-size: 4rem;
+}
+
+.profile-image {
+    height: 250px;
+    border-radius: 50%;
+    margin: 20px;
+}
+
+h2, h3, .hi {
+    font-family: "Great Vibes", cursive;
+    font-weight: 1000;
+    font-style: normal;
+    font-size: 2rem;
+    color: #2459A3;
+    margin-bottom: 5px;
+}
+
+.skills {
+    padding-bottom: 50px;
+}
+
+h3 {
+    font-size: 1.7rem;
+}
+
+iframe {
+    float: left;
+    padding-top: 10px;
+}
+
+p, li {
+    font-size: 18px;
+}
+
+button {
+    width: 100px;
+    height: 50px;
+    background-color: #2459A3;
+    color: white;
+    border-radius: 5%;
+    border: 0px;
+    font-size: 15px;
+}
+
+@media (width <= 750px) {
+    .font1 {
+        font-size: 5rem;
+      }
+
+    .sub-text {
+        font-size: 3rem;
+    }
+
+    .container1 {
+        padding: 0%;
+        padding-bottom: 50px;
+    }
+}
